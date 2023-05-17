@@ -1,6 +1,6 @@
 # Coinbase Payments
 
-✅ Unofficial Coinbase Commerce JS API | Receive BTC, ETH, LTC, DOGE and others | The simplest way to receive crypto payments on your website!
+🔵🔥 Unofficial Coinbase Commerce JS Client | Receive BTC, ETH, LTC, DOGE and others | The simplest way to Receive Crypto payments on your Website!
 
 ## Install
 
