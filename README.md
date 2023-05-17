@@ -31,7 +31,7 @@ const coinbase = Coinbase('COINBASE_COMMERCE_KEY');
         description: 'Example order',
         amount: 5,
         currency: 'USD',
-        metada: { order_id: 'random123', customer_id: 'random123' },
+        metadata: { order_id: 'random123', customer_id: 'random123' },
     });
     console.log(charge);
 ```
