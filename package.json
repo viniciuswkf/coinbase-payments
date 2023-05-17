@@ -1,6 +1,13 @@
 {
   "name": "coinbase-payments",
   "version": "1.0.0",
+  "keywords": [
+    "crypto",
+    "bitcoin",
+    "coinbase",
+    "ethereum",
+    "payments"
+  ],
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
