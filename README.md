@@ -130,7 +130,7 @@ const coinbase = Coinbase('COINBASE_COMMERCE_KEY');
 
 - [Coinbase Commerce API](https://www.coinbase.com/cloud/products/commerce-api)
 
-## Buy me a coffe ☕
+## Buy me a coffee ☕
 If you liked it and want this project to stay active, buy me a coffee.
 
 - BTC: 1KmZyRhAVcAMH8vJKcGPNp5QpCJ3HNZgzv
