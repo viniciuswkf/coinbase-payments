@@ -2,6 +2,8 @@
 
 ✅ Unofficial Coinbase Commerce JS API | Receive BTC, ETH, LTC, DOGE and others | The simplest way to receive crypto payments on your website!
 
+[NPM Package](https://www.npmjs.com/package/coinbase-payments)
+
 ## Install
 
 Add "coinbase-payments" to your project:
@@ -65,15 +67,13 @@ const coinbase = Coinbase('COINBASE_COMMERCE_KEY');
 
 ```javascript
   {
+    id: '8192b4a8-cd34-4f9e-a075-53ca2a0f5c53',
     addresses: {
-      polygon: '0xc8d96a6f966245cb250b18ddbdf1b8638827a123',
-      pusdc: '0xc8d96a6f966245cb250b18ddbdf1b8638827a123',
-      pweth: '0xc8d96a6f966245cb250b18ddbdf1b8638827a123',
       ethereum: '0xc8d96a6f966245cb250b18ddbdf1b8638827a123',
-      bitcoincash: 'qp4anqv3pjdkxmr6z34hwqx9u3udfl3fyuaf6zvp0g',
       dogecoin: 'DDHAcyJoSABXCVyWLBuBqso2TKGc7ufGhf',
       litecoin: 'MWRK7pK3Z9JBaNrBNUuNzmutbHHFwF7TPv',
-      bitcoin: '3NNvwQMtLGG9Yc5n2JnzSaVbFgr1awF9Es'
+      bitcoin: '3NNvwQMtLGG9Yc5n2JnzSaVbFgr1awF9Es',
+      // more...
     },
     brand_color: '#122332',
     brand_logo_url: '',
@@ -87,34 +87,18 @@ const coinbase = Coinbase('COINBASE_COMMERCE_KEY');
       'LTC-USD': '94.84',
       'DOGE-USD': '0.0752',
       'BCH-USD': '118.4',
-      'USDC-USD': '1.0',
-      'DAI-USD': '0.99995',
-      'APE-USD': '3.451',
-      'SHIB-USD': '0.000008815',
-      'USDT-USD': '0.999925',
-      'PMATIC-USD': '0.88575',
-      'PUSDC-USD': '1.0',
-      'PWETH-USD': '1830.54'
+      // more...
     },
     expires_at: '2023-05-17T20:26:18Z',
     fee_rate: 0.01,
     fees_settled: true,
     hosted_url: 'https://commerce.coinbase.com/charges/V93JF0CF',
-    id: '8192b4a8-cd34-4f9e-a075-53ca2a0f5c53',
     local_exchange_rates: {
       'ETH-USD': '1830.54',
       'BTC-USD': '27344.205',
       'LTC-USD': '94.84',
       'DOGE-USD': '0.0752',
-      'BCH-USD': '118.4',
-      'USDC-USD': '1.0',
-      'DAI-USD': '0.99995',
-      'APE-USD': '3.451',
-      'SHIB-USD': '0.000008815',
-      'USDT-USD': '0.999925',
-      'PMATIC-USD': '0.88575',
-      'PUSDC-USD': '1.0',
-      'PWETH-USD': '1830.54'
+      // more...
     },
     logo_url: '',
     metadata: {},
@@ -133,16 +117,7 @@ const coinbase = Coinbase('COINBASE_COMMERCE_KEY');
       polygon: { amount: '5.644934000', currency: 'PMATIC' },
       pusdc: { amount: '5.000000', currency: 'PUSDC' },
       pweth: { amount: '0.002731434440110568', currency: 'PWETH' },
-      ethereum: { amount: '0.002731000', currency: 'ETH' },
-      usdc: { amount: '5.000000', currency: 'USDC' },
-      dai: { amount: '5.000250015000000000', currency: 'DAI' },
-      apecoin: { amount: '1.448855404230657780', currency: 'APE' },
-      shibainu: { amount: '567214.974475325000000000', currency: 'SHIB' },
-      tether: { amount: '5.000375', currency: 'USDT' },
-      bitcoincash: { amount: '0.04222973', currency: 'BCH' },
-      dogecoin: { amount: '66.48936170', currency: 'DOGE' },
-      litecoin: { amount: '0.05272037', currency: 'LTC' },
-      bitcoin: { amount: '0.00018285', currency: 'BTC' }
+      // more...
     },
     pricing_type: 'fixed_price',
     pwcb_only: false,
@@ -156,3 +131,13 @@ const coinbase = Coinbase('COINBASE_COMMERCE_KEY');
 ## Reference
 
 - [Coinbase Commerce API](https://www.coinbase.com/cloud/products/commerce-api)
+
+## Buy me a coffee ☕
+
+If you liked it and want this project to stay active, buy me a coffee.
+
+```
+  - BTC: 1KmZyRhAVcAMH8vJKcGPNp5QpCJ3HNZgzv
+  - ETH: 0x42eF534C4172b02351b90A4184bedCD8bcfE8eE6
+  - LTC: LbendKmgoYy8hgMMZMWtxNNNjeJh5CYo7Q
+```
